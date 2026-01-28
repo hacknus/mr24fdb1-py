@@ -1,7 +1,7 @@
 from mr24fdb1 import MR24FDB1Radar
 import time
 
-radar = MR24FDB1Radar(port="/dev/serial0", baudrate=9600)
+radar = MR24FDB1Radar(port="/dev/ttyAMA10", baudrate=9600)
 
 print("Ready")
 time.sleep(1.5)
