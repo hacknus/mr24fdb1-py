@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mr24fdb1"
+version = "0.0.1"
+dependencies = [
+  "pyserial",
+]
+requires-python = ">=3.8"
+authors = [
+  { name="Linus Leo Stöckli", email="linus.stoeckli@unibe.ch" },
+]
+description = "Driver for the MR24FDB1 radar module"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+keywords = ["radar", "mr24fdb1", "motion"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Repository = "https://github.com/hacknus/mr24fdb1-py.git"
+"Bug Tracker" = "https://github.com/hacknus/mr24fdb1-py/issues"
+Changelog = "https://github.com/hacknus/mr24fdb1-py/blob/master/CHANGELOG.md"
